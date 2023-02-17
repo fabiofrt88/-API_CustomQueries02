@@ -6,4 +6,5 @@ public enum FlightStatus {
     DELAYED,
     CANCELLED;
 
+
 }

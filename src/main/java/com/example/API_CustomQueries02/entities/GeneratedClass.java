@@ -2,7 +2,7 @@ package com.example.API_CustomQueries02.entities;
 
 import java.util.Random;
 
-public class GeneratedString {
+public class GeneratedClass {
 
     Random random = new Random();
 
@@ -19,4 +19,11 @@ public class GeneratedString {
                 .toString();
         return generatedString;
     }
+
+    public Integer genInt() {
+        Random random = new Random();
+        return random.nextInt(0,3);
+    }
+
+
 }
